@@ -13,8 +13,8 @@ public class Persona {
                 "DNI='" + DNI + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
-                ", edad=" + edad +
-                '}';
+                ", edad=" + edad
+                ;
     }
 
     public Persona(String DNI, String nombre, String apellidos, int edad) {
@@ -47,6 +47,10 @@ public class Persona {
 
     public void cumplirAnyos(){
         edad++;
+    }
+
+    public void printDNI(){
+        System.out.println("DNI ->" + DNI);
     }
 
 }
