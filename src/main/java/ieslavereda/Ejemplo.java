@@ -10,5 +10,12 @@ public class Ejemplo {
 
         Alumno a = new Alumno("sss","ptt","ppl",999,Grado.ASIR);
 
+        Profesor ppt = new Profesor("sss","xavi","pp",99,Grado.ASIR,Grado.ASIR2);
+
+        Profesor ppt2 = new Profesor("sss","joaq","pp",99,Grado.ASIR,Grado.ASIR2);
+
+        System.out.println(ppt);
+        EqDirectivo p = new EqDirectivo("sss","joaq","pp",99,ppt2,ppt);
     }
 }
+

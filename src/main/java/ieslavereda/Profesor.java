@@ -5,10 +5,11 @@ import java.util.Arrays;
 public class Profesor extends Persona {
 
 
-    private Grado[] grados = new Grado[5];
+    private Grado[] grados;
 
-    public Profesor(String DNI, String nombre, String apellidos, int edad) {
+    public Profesor(String DNI, String nombre, String apellidos, int edad,Grado ... grados) {
         super(DNI, nombre, apellidos, edad);
+        this.grados=grados;
     }
     @Override
     public String toString() {
