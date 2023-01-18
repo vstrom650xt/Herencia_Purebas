@@ -11,6 +11,9 @@ public class Profesor extends Persona {
         super(DNI, nombre, apellidos, edad);
         this.grados=grados;
     }
+
+//    public
+
     @Override
     public String toString() {
         return "\n"+"Profesor -> " +

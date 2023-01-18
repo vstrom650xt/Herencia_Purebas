@@ -11,8 +11,10 @@ public class EqDirectivo extends Profesor{
     public String toString() {
         return "EqDirectivo -> "  +
                 "cargo = " + cargo + "\n" +
-                "profesorado :" + Arrays.toString(profes) +"\n";
+                "profesorado :" +
+                Arrays.toString(profes) +"\n";
     }
+
 
     public EqDirectivo(String DNI, String nombre, String apellidos, int edad, String cargo , Profesor ... profes) {
         super(DNI, nombre, apellidos, edad);
@@ -20,5 +22,12 @@ public class EqDirectivo extends Profesor{
         this.cargo=cargo;
     }
 
+//    @Override
+//    public String toString() {
+//        return "EqDirectivo{" +
+//                "cargo='" + cargo + '\'' +
+//                ", profesores=" + Arrays.toString(profes) +
+//                "} " + super.toString();
+//    }
 
 }

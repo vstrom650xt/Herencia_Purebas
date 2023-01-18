@@ -9,7 +9,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return " con " +
                 "DNI='" + DNI + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
@@ -24,6 +24,12 @@ public class Persona {
         this.edad = edad;
     }
 
+    public Persona(){
+
+
+
+
+    }
     public void setEdad(int edad) {
         this.edad = edad;
     }
